@@ -1,0 +1,7 @@
+.coupan {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(8, 10fr);
+    gap: 3rem;
+    align-items: start;
+}
