@@ -1,0 +1,295 @@
+.image12Icon {
+    align-self: stretch;
+    height: 24px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .amazon {
+    position: relative;
+    line-height: 14px;
+    font-weight: 500;
+  }
+  .offer {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .flat30Off,
+  .grabNow {
+    position: relative;
+    font-weight: 600;
+  }
+  .grabNow {
+    text-transform: uppercase;
+  }
+  .bottom,
+  .btn,
+  .offer1 {
+    display: flex;
+    align-items: center;
+  }
+  .btn {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #f01c21;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 16px;
+    white-space: nowrap;
+    text-align: left;
+    color: #fff;
+  }
+  .bottom,
+  .offer1 {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .bottom {
+    align-self: stretch;
+    padding: 0 5px;
+    gap: 8px;
+    color: #3ba615;
+  }
+  .offer1 {
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 20px;
+    gap: 24px;
+    min-width: 173px;
+    max-width: 200px;
+  }
+  .image12Icon1 {
+    align-self: stretch;
+    height: 24px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .amazon1 {
+    position: relative;
+    line-height: 14px;
+    font-weight: 500;
+  }
+  .offer2 {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .flat30Off1,
+  .grabNow1 {
+    position: relative;
+    font-weight: 600;
+  }
+  .grabNow1 {
+    text-transform: uppercase;
+  }
+  .bottom1,
+  .btn1,
+  .offer11 {
+    display: flex;
+    align-items: center;
+  }
+  .btn1 {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #f01c21;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 16px;
+    white-space: nowrap;
+    text-align: left;
+    color: #fff;
+  }
+  .bottom1,
+  .offer11 {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .bottom1 {
+    align-self: stretch;
+    padding: 0 5px;
+    gap: 8px;
+    color: #3ba615;
+  }
+  .offer11 {
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 20px;
+    gap: 24px;
+    min-width: 173px;
+    max-width: 200px;
+  }
+  .image12Icon2 {
+    align-self: stretch;
+    height: 24px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .amazon2 {
+    position: relative;
+    line-height: 14px;
+    font-weight: 500;
+  }
+  .offer3 {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .flat30Off2,
+  .grabNow2 {
+    position: relative;
+    font-weight: 600;
+  }
+  .grabNow2 {
+    text-transform: uppercase;
+  }
+  .bottom2,
+  .btn2,
+  .offer12 {
+    display: flex;
+    align-items: center;
+  }
+  .btn2 {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #f01c21;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 16px;
+    white-space: nowrap;
+    text-align: left;
+    color: #fff;
+  }
+  .bottom2,
+  .offer12 {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .bottom2 {
+    align-self: stretch;
+    padding: 0 5px;
+    gap: 8px;
+    color: #3ba615;
+  }
+  .offer12 {
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 20px;
+    gap: 24px;
+    min-width: 173px;
+    max-width: 200px;
+  }
+  .image12Icon3 {
+    align-self: stretch;
+    height: 24px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .amazon3 {
+    position: relative;
+    line-height: 14px;
+    font-weight: 500;
+  }
+  .offer4 {
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+  }
+  .flat30Off3,
+  .grabNow3 {
+    position: relative;
+    font-weight: 600;
+  }
+  .grabNow3 {
+    text-transform: uppercase;
+  }
+  .btn3 {
+    align-self: stretch;
+    border-radius: 8px;
+    background-color: #f01c21;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 16px;
+    white-space: nowrap;
+    text-align: left;
+    color: #fff;
+  }
+  .bottom3,
+  .btn3,
+  .offer13,
+  .r1 {
+    display: flex;
+    align-items: center;
+  }
+  .bottom3 {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 5px;
+    gap: 8px;
+    color: #3ba615;
+  }
+  .offer13,
+  .r1 {
+    flex: 1;
+  }
+  .offer13 {
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #ececec;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 24px;
+    min-width: 173px;
+    max-width: 200px;
+  }
+  .r1 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #091431;
+    font-family: Metropolis;
+  }
+  

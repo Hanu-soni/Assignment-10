@@ -1,34 +1,58 @@
-import React from 'react';
-import data from './data';
-import './section7.css'
+import  "./section7.css";
+import mobile from '../../img-2/Phone.png'
 
 const Main7 = () => {
-   
-
   return (
-    <div className='bg-light'>
-        <center><h3>How it works?</h3></center>
-        <div style={{width:"100%"}} className='bg-white d-flex flex-row justify-content-evenly'>
-            {
-                data.map(item=>(
-                    <div style={{width:"20%"}} className='card bg-white '>
-                        <center>
-                        <div className='card-img mt-3'>
-                        <img style={{height:"20px",width:"20px"}} src={item.img} alt="vector-img"/><br></br>
-                        </div>
-                        <b>{item.title}</b><br></br>
-                        <p>{item.para}</p>
-                        </center>
-
-                    </div>
-                ))
-            }
-            
+    <div className="applicationDownload">
+      <div className="bg" />
+      <div className="dropdownMenuItems">
+        <div className="content">
+          <div className="texts">
+            <h1 className="wantToBe">Want to be a part of our team</h1>
+            <div className="beAPart">
+              Be a part of best site of discount coupons
+            </div>
+          </div>
+          <div className="btns">
+            <div className="btn">
+              <img
+                className="image64Icon"
+                loading="eager"
+                alt=""
+                src={mobile}
+              />
+              <div className="t">
+                <div className="downloadFrom">Download From</div>
+                <div className="appStore">App Store</div>
+              </div>
+            </div>
+            <div className="btn1">
+              <img
+                className="image64Icon1"
+                alt=""
+                src={mobile}
+              />
+              <div className="t1">
+                <div className="downloadFrom1">Download From</div>
+                <div className="playStore">Play Store</div>
+              </div>
+            </div>
+          </div>
         </div>
-
-
+      </div>
+      <div className="ulListContainer">
+        <div className="liArrowContainer">
+          <img
+            className="phoneIcon"
+            loading="eager"
+            alt=""
+            src={mobile}
+          />
+          <img className="phoneIcon1" alt="" src={mobile}/>
+        </div>
+      </div>
     </div>
-  )
-}
+  );
+  }
 
-export default Main7
+export default Main7;

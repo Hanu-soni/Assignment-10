@@ -3,10 +3,10 @@ import data from './data'
 
 const Coupan = () => {
   return (
-    <div className='coupan'>
+    <div style={{margin:"auto"}} className='coupan d-flex justify-content-center'>
             {
                data.map(item=>(
-                <img src={item} alt="coupan-img"/>
+                <img className='border border-dark' src={item} alt="coupan-img"/>
                ))
             }
 

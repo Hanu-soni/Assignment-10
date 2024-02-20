@@ -1,5 +1,5 @@
 .coupan {
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: repeat(8, 10fr);
     gap: 3rem;

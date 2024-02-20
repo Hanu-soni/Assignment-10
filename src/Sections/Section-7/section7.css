@@ -1,10 +1,227 @@
-.card-img{
-    width:  56px;
-height:  56px;
-padding: 16px;
-border-radius: 12px;
-gap: 8px;
-background: pink;
-
-
-}
+.bg {
+    height: 400px;
+    width: 860px;
+    position: relative;
+    border-radius: 24px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.85),
+        rgba(255, 255, 255, 0.85)
+      ),
+      #f01c21;
+    display: none;
+    max-width: 100%;
+  }
+  .beAPart,
+  .wantToBe {
+    align-self: stretch;
+    position: relative;
+  }
+  .wantToBe {
+    margin: 0;
+    height: 80px;
+    font-size: inherit;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .beAPart {
+    font-size: 16px;
+    line-height: 24px;
+    color: #414141;
+  }
+  .texts {
+    width: 269px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+  }
+  .image64Icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    object-fit: cover;
+  }
+  .appStore,
+  .downloadFrom {
+    position: relative;
+    font-weight: 500;
+  }
+  .appStore {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #091431;
+  }
+  .btn,
+  .t {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+  }
+  .btn {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 6px 6px 60px rgba(0, 0, 0, 0.07);
+    border: 1px solid #e8e8e8;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 17px;
+    gap: 12px;
+  }
+  .image64Icon1 {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    object-fit: cover;
+  }
+  .downloadFrom1,
+  .playStore {
+    position: relative;
+    font-weight: 500;
+  }
+  .playStore {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #091431;
+  }
+  .btn1,
+  .t1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4px;
+  }
+  .btn1 {
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 6px 6px 60px rgba(0, 0, 0, 0.07);
+    border: 1px solid #e8e8e8;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 17px;
+    gap: 12px;
+  }
+  .btns,
+  .content,
+  .dropdownMenuItems {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .btns {
+    flex-direction: row;
+    gap: 16px;
+    font-size: 10px;
+    color: #747577;
+  }
+  .content,
+  .dropdownMenuItems {
+    flex-direction: column;
+  }
+  .content {
+    gap: 20px;
+    z-index: 1;
+  }
+  .dropdownMenuItems {
+    padding: 0 0 28px;
+    box-sizing: border-box;
+    min-width: 352px;
+    max-width: 100%;
+  }
+  .phoneIcon,
+  .phoneIcon1 {
+    position: absolute;
+    top: 11px;
+    left: 170px;
+    width: 290.6px;
+    height: 432px;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .phoneIcon1 {
+    top: 0;
+    left: 0;
+    width: 216px;
+    height: 321.1px;
+    z-index: 2;
+  }
+  .liArrowContainer {
+    width: 461px;
+    height: 443px;
+    position: relative;
+    max-width: 108%;
+    flex-shrink: 0;
+  }
+  .applicationDownload,
+  .ulListContainer {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .ulListContainer {
+    height: 372px;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    min-width: 276px;
+  }
+  .applicationDownload {
+    align-self: stretch;
+    border-radius: 24px;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.85),
+        rgba(255, 255, 255, 0.85)
+      ),
+      #f01c21;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    padding: 28px 0 0 78px;
+    gap: 5px;
+    text-align: left;
+    font-size: 32px;
+    color: #f01c21;
+    font-family: Metropolis;
+  }
+  @media screen and (max-width: 1050px) {
+    .wantToBe {
+      font-size: 26px;
+      line-height: 32px;
+    }
+    .applicationDownload {
+      padding-left: 39px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .dropdownMenuItems {
+      flex: 1;
+      min-width: 100%;
+    }
+    .applicationDownload {
+      flex-wrap: wrap;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .wantToBe {
+      font-size: 19px;
+      line-height: 24px;
+    }
+    .btns {
+      flex-wrap: wrap;
+    }
+  }
+  

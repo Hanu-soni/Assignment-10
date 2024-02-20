@@ -1,0 +1,69 @@
+.appliances,
+.upto60Off {
+  margin: 0;
+}
+.upto60OffContainer {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.image12Icon {
+  width: 80px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+}
+.upto60Off1 {
+  align-self: stretch;
+  position: relative;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  color: #878787;
+}
+.upto60OffOnAppliancesParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.grabNow {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.btn,
+.offer1 {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  border-radius: 8px;
+  background-color: #f01c21;
+  flex-direction: row;
+  justify-content: center;
+  padding: 12px 36px 12px 39px;
+  white-space: nowrap;
+  text-align: left;
+  font-size: 12px;
+  color: #fff;
+}
+.offer1 {
+  width: 200px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #ececec;
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 16px 22px 15px 21px;
+  gap: 39px;
+  text-align: center;
+  font-size: 16px;
+  color: #3ba615;
+  font-family: Metropolis;
+}

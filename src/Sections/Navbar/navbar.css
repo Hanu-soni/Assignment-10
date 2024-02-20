@@ -1,0 +1,259 @@
+.logoIcon {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .logo {
+    height: 50px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .searchIcon {
+    height: 12px;
+    width: 12px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+ 
+  .search {
+    height: 32px;
+    width: 418px;
+    border-radius: 8px;
+    background-color: #eee;
+    border: 1px solid #e3e3e3;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 16px;
+    gap: 8px;
+    max-width: 100%;
+    position: relative;
+    white-space: nowrap;
+  }
+  .loginSign {
+    position: relative;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .btn,
+  .header1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .btn {
+    border-radius: 8px;
+    background-color: #f01c21;
+    justify-content: center;
+    padding: 12px 14px;
+    white-space: nowrap;
+    font-size: 14px;
+    color: #fff;
+  }
+  .header1 {
+    width: 900px;
+    justify-content: space-between;
+    padding: 16px 20px;
+    box-sizing: border-box;
+    gap: 20px;
+    max-width: 100%;
+  }
+  .home {
+    position: relative;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .menu1 {
+    border-bottom: 2px solid #f01c21;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    color: #f01c21;
+  }
+  .deals {
+    position: relative;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .dropDownIcon {
+    height: 12px;
+    width: 12px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 12px;
+  }
+  .menu2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    gap: 4px;
+  }
+  .coupon {
+    position: relative;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .dropDownIcon1 {
+    height: 12px;
+    width: 12px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 12px;
+  }
+  .menu3 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    gap: 4px;
+    min-width: 62px;
+  }
+  .stores {
+    position: relative;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .dropDownIcon2 {
+    height: 12px;
+    width: 12px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 12px;
+  }
+  .menu4 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    gap: 4px;
+    min-width: 50px;
+    z-index: 1;
+  }
+  .contactUs {
+    position: relative;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .menu,
+  .menu5,
+  .menus {
+    display: flex;
+    align-items: center;
+  }
+  .menu5 {
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px 15px;
+    box-sizing: border-box;
+    min-width: 62px;
+  }
+  .menu,
+  .menus {
+    max-width: 100%;
+  }
+  .menus {
+    width: 463px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 20px;
+    box-sizing: border-box;
+    row-gap: 20px;
+  }
+  .menu {
+    align-self: stretch;
+    background-color: #091431;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+  }
+  .header,
+  .imageIcon {
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .header {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 12px;
+    color: #8b8b8b;
+    font-family: Metropolis;
+  }
+  .imageIcon {
+    width: 860px;
+    position: relative;
+    border-radius: 32px;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .heroContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    max-width: 100%;
+  }
+/* Default styles */
+
+/* Add default styles here */
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 938px) {
+  .header1 {
+    /* Adjust header layout for smaller screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search {
+    /* Adjust search input for smaller screens */
+    margin-top: 20px;
+  }
+
+  .menu {
+    /* Adjust menu layout for smaller screens */
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  /* Add more adjustments as needed */
+}
+
+/* Media query for larger screens */
+@media only screen and (min-width: 1024px) {
+  /* Add styles for larger screens */
+}
+
+/* Add more media queries for other screen sizes if needed */

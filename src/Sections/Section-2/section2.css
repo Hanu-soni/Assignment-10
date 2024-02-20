@@ -1,11 +1,656 @@
-@media only screen and (max-width: 768px) {
-    #salesimg {
-        max-width: 80%;
-    }
+.mainContentArea {
+  height: 100%;
+  width: 48px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.2px;
+  bottom: -0.2px;
+  left: 0;
+  border-radius: 4px;
+  background-color: #091431;
 }
-
-@media only screen and (max-width: 576px) {
-    #salesimg {
-        max-width: 90%;
-    }
+.footerInfo,
+.listContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  background-color: #d9d9d9;
+  width: 20px;
+  height: 8px;
+}
+.listContainer {
+  left: 26px;
+}
+.aboutUs {
+  height: 8px;
+  width: 46px;
+  position: relative;
+}
+.pagination {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  gap: 6px;
+}
+.trophyIcon {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 12px;
+}
+.popularCoupons {
+  position: relative;
+  font-weight: 500;
+}
+.t {
+  flex: 1;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 10px 12px 12px;
+  box-sizing: border-box;
+  gap: 6px;
+  min-width: 92px;
+  white-space: nowrap;
+  color: #f01c21;
+}
+.timerIcon {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 12px;
+}
+.endingSoon {
+  position: relative;
+  font-weight: 500;
+}
+.t1 {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 10px 12px 12px;
+  gap: 9px;
+}
+.hotIcon {
+  height: 12px;
+  width: 12px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 12px;
+}
+.latestCoupons {
+  position: relative;
+  font-weight: 500;
+}
+.sectionTitle,
+.t2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.t2 {
+  flex: 1;
+  border-radius: 8px;
+  padding: 12px 10px 12px 12px;
+  box-sizing: border-box;
+  gap: 12px;
+  min-width: 92px;
+}
+.sectionTitle {
+  align-self: stretch;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.breadcrumbTrail,
+.tableRow {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px 40px;
+  box-sizing: border-box;
+  gap: 55px;
+  max-width: 100%;
+}
+.tableRow {
+  width: 900px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 25px 16px;
+  min-height: 541px;
+  text-align: center;
+  font-size: 16px;
+  color: #3ba615;
+}
+.compartment,
+.dropdownList,
+.menuHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+}
+.compartment {
+  height: 100%;
+  width: 48px;
+  margin: 0 !important;
+  bottom: 0;
+  background-color: #091431;
+}
+.dropdownList,
+.menuHeader {
+  background-color: #d9d9d9;
+  width: 20px;
+  height: 8px;
+}
+.dropdownList {
+  left: 26px;
+}
+.aboutUs1 {
+  height: 8px;
+  width: 46px;
+  position: relative;
+}
+.pagination1,
+.parentContainer {
+  display: flex;
+  flex-direction: row;
+}
+.pagination1 {
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  gap: 6px;
+}
+.parentContainer {
+  width: 140px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 80px;
+  box-sizing: border-box;
+}
+.dealsOfThe {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.searchBar {
+  width: 76px;
+  height: 3px;
+  position: relative;
+  background-color: #f01c21;
+}
+.accordionList,
+.logoContainer {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 20px 40px;
+  box-sizing: border-box;
+}
+.accordionList {
+  height: 76px;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  font-size: 24px;
+}
+.logoContainer {
+  width: 900px;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: center;
+}
+.aboutUsChild,
+.aboutUsItem,
+.paginationChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+}
+.paginationChild {
+  height: 100%;
+  width: 48px;
+  margin: 0 !important;
+  bottom: 0;
+  background-color: #091431;
+}
+.aboutUsChild,
+.aboutUsItem {
+  background-color: #d9d9d9;
+  width: 20px;
+  height: 8px;
+}
+.aboutUsItem {
+  left: 26px;
+}
+.aboutUs2 {
+  height: 8px;
+  width: 46px;
+  position: relative;
+}
+.pagination2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  gap: 6px;
+}
+.parentContainer1 {
+  width: 140px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px 40px;
+  box-sizing: border-box;
+}
+.couponByCategories1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+}
+.frameChild {
+  width: 76px;
+  height: 3px;
+  position: relative;
+  background-color: #f01c21;
+}
+.couponByCategoriesParent {
+  height: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.fashionIcon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  object-fit: cover;
+}
+.fashion {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.cat {
+  flex: 1;
+  border-radius: 8px 8px 0 0;
+  background-color: #fff;
+  border-bottom: 2px solid #f01c21;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  gap: 10px;
+  min-width: 90px;
+  max-width: 92px;
+}
+.food,
+.foodIcon {
+  position: relative;
+}
+.foodIcon {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.food {
+  align-self: stretch;
+  font-weight: 600;
+}
+.cat1 {
+  flex: 1;
+  border-radius: 8px 8px 0 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 10px;
+  min-width: 90px;
+  max-width: 92px;
+}
+.beautyCareIcon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  object-fit: cover;
+}
+.beauty {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.cat2 {
+  flex: 1;
+  border-radius: 8px 8px 0 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 10px;
+  min-width: 90px;
+  max-width: 92px;
+}
+.toys,
+.toysIcon {
+  position: relative;
+}
+.toysIcon {
+  width: 36px;
+  height: 36px;
+  object-fit: cover;
+}
+.toys {
+  align-self: stretch;
+  font-weight: 600;
+}
+.cat3 {
+  flex: 1;
+  border-radius: 8px 8px 0 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 10px;
+  min-width: 90px;
+  max-width: 92px;
+}
+.hostingIcon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  object-fit: cover;
+}
+.cloud {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.cat4 {
+  flex: 1;
+  border-radius: 8px 8px 0 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 10px;
+  min-width: 90px;
+  max-width: 92px;
+}
+.gamingIcon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  object-fit: cover;
+}
+.gaming {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.cat5 {
+  flex: 1;
+  border-radius: 8px 8px 0 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 10px;
+  min-width: 90px;
+  max-width: 92px;
+}
+.mobileIcon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  object-fit: cover;
+}
+.phones {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.cat6 {
+  flex: 1;
+  border-radius: 8px 8px 0 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 10px;
+  min-width: 90px;
+  max-width: 92px;
+}
+.travelIcon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  object-fit: cover;
+}
+.travel {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.cat7 {
+  flex: 1;
+  border-radius: 8px 8px 0 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 10px;
+  min-width: 90px;
+  max-width: 92px;
+}
+.moviesIcon {
+  width: 36px;
+  height: 36px;
+  position: relative;
+  object-fit: cover;
+}
+.movies {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.cat8 {
+  flex: 1;
+  border-radius: 8px 8px 0 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
+  gap: 10px;
+  min-width: 90px;
+  max-width: 92px;
+}
+.allCategories {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+}
+.amazonOffer,
+.amazonOffer1,
+.termsOfUse {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+}
+.termsOfUse {
+  height: 100%;
+  width: 48px;
+  margin: 0 !important;
+  bottom: 0;
+  background-color: #091431;
+}
+.amazonOffer,
+.amazonOffer1 {
+  background-color: #d9d9d9;
+  width: 20px;
+  height: 8px;
+}
+.amazonOffer1 {
+  left: 26px;
+}
+.aboutUs3 {
+  height: 8px;
+  width: 46px;
+  position: relative;
+}
+.pagination3 {
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+  gap: 6px;
+}
+.allCategoriesParent,
+.couponByCategories,
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.row {
+  align-self: stretch;
+  border-radius: 0 0 16px 16px;
+  background-color: #fff;
+  border-top: 1px solid #eee;
+  align-items: center;
+  padding: 16px 0 24px;
+  gap: 16px;
+}
+.allCategoriesParent,
+.couponByCategories {
+  max-width: 100%;
+}
+.allCategoriesParent {
+  width: 860px;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 12px;
+}
+.couponByCategories {
+  align-self: stretch;
+  background: linear-gradient(180deg, rgba(218, 218, 218, 0.25), #dadada);
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+  gap: 40px;
+  z-index: 1;
+  font-size: 24px;
+}
+.image10Icon {
+  width: 860px;
+  position: relative;
+  border-radius: 16px;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.arrowSymbol,
+.offer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.arrowSymbol {
+  justify-content: flex-start;
+  padding: 0 0 19px;
+  text-align: left;
+  font-size: 12px;
+  color: #091431;
+  font-family: Metropolis;
+}
+@media screen and (max-width: 750px) {
+  .couponByCategories {
+    gap: 40px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .breadcrumbTrail {
+    gap: 55px;
+  }
+  .couponByCategories1,
+  .dealsOfThe {
+    font-size: 19px;
+  }
 }

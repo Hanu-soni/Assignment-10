@@ -1,32 +1,44 @@
 import React, { useState } from 'react'
 import Coupan from './Coupan';
 import '../Section-3/section3.css';
-import Product from '../Section-3/product';
+import Card from '../../Components/Card'
 import data from '../Section-3/data';
 
 
 const CoupanMain = () => {
-    const filterdata = data.filter((item, index) => index < 4);
+  const filterdata = data.filter((item, index) => index < 4);
 
   return (
-    <div style={{margin:"auto"}} className='bg-light d-flex justify-content-center mt-4'>
-    <center><h3>Coupan By Categories</h3>
-        <div className='bg-white mt-4'>
-           <Coupan/>
-           <div className='bestdeal'>
-            {
-               filterdata.map(item=>(
-                <Product key={item.id} item={item}/>
-               ))
-            }
+    <div  className='bg-light  mt-5'>
+
+    <center><h3>Coupan By Categories</h3></center>
+     <Coupan/>
+     
+    
 
 
-            </div>
-        </div>
-    </center>
-        
 
-        
+      <div className='d-flex justify-content-center'>
+      <div className='products'>
+        {
+          filterdata.map(item => (
+            <Card key={item.id} item={item} />
+          ))
+        }
+
+
+
+      </div>
+
+      </div>
+
+    
+      
+
+      
+
+
+
     </div>
   )
 }
